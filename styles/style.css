@@ -1,0 +1,336 @@
+.header {
+  display: grid;
+  grid-template-columns: 180px  480px;
+  grid-template-rows: 109px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.header__logo-image {
+  padding-top: 4px;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1180px;
+  border-top: 1px solid gray;
+  padding-top: 14px;
+  font-size: 16px;
+}
+
+
+
+.header__links-list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 951px;
+  font-weight: normal;
+  font-size: 16px;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__address {
+  display: grid;
+  grid-template-columns: 280px 180px;
+  grid-template-rows: 17px 28px;
+  justify-items: end;
+  justify-content: end;
+  align-items: center;
+  column-gap: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.address__text {
+font-size: 14px;
+}
+
+.address__mail {
+  color: #607ce6;
+  font-weight: 600;
+  font-size: 20px;
+  text-underline-offset: 4px;
+}
+
+.address__phone {
+  color: #607ce6;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link__call-me {
+  position: relative;
+  display: inline-block;
+  color: #607ce6;  
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link__call-me::before {
+  content: url("../images/phone.svg");
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.cover__heading {
+  display: flex;
+  justify-content:left;
+  gap: 107px;
+  padding-top: 78px;
+}
+
+.cover__title {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 1.21;
+  letter-spacing: -0.01em;
+}
+
+.cover__description {
+  padding-top: 27px;
+  line-height: 1.21;
+}
+
+.cover__image {
+  display: block;
+  padding-top: 32px;
+}
+
+.about {
+  padding-top: 75px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 580px 580px;
+  grid-template-rows: 110px 66px 280px;
+  justify-items: left;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 33px;
+}
+
+.section__heading {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.21;
+  letter-spacing: -0.01em;
+}
+
+.card__text_wide-cell {
+  display: block;
+  grid-column: span 2;
+  align-self: left;
+  max-width: 580px;
+  padding-top: 4px;
+}
+
+.about__worker {
+  padding-top: 16px;
+}
+
+.about__cars {
+  padding-top: 16px;
+}
+
+.products__card-list {
+  display: grid;
+  grid-template-columns: 380px 380px 380px;
+  grid-template-rows: 435px 435px;
+  justify-content: space-between;
+  gap: 20px;
+  row-gap: 25px;
+  padding-top: 32px;
+}
+
+.products__heading {
+  padding-top: 95px;
+}
+
+.products__card-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-left: 24px;
+  background-color: #f5f5f5;
+}
+
+.product__image {
+  max-width: 200px;
+}
+
+.products__card-link {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 9px;
+}
+
+.product__image__pressure-sensor {
+  padding-top: 24px;
+}
+
+.card__title {
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+}
+
+.link__more-details {
+  display: block;
+  padding-bottom: 31px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link__more-details::after {
+  content: url("../images/angle-icon.svg");
+  position: relative;
+  display: inline-block;
+  min-width: 6px;
+  height: 11px;
+  padding-left: 5px;
+}
+
+.representative__offices__heading {
+  padding-top: 80px;
+}
+
+.map__cities {
+  max-width: 1155.89px;
+  padding-top: 35px;
+  padding-left: 2px;
+}
+
+ 
+.news__heading {
+  padding-top: 106px;
+}
+
+.news__card-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  list-style: none;
+}
+
+.news__image {
+  max-width: 380px;
+}
+
+.news__card-list-item {
+  max-width: 380px;
+  min-height: 478px;
+  background-color: #f5f5f5;
+}
+
+.news__card__link__date {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 30px;
+}
+
+.news__text__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 227px;
+}
+
+.news-text {
+  flex-grow: 1;
+  padding: 10px 16px 0;
+  font-size: 20px;
+  line-height: 1.42;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 361px;
+  margin-top: 76px;
+  color: white;
+  background-color: #333;
+}
+
+.footer__menu {
+  display: grid;
+  flex-grow: 1;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  column-gap: 20px;
+  min-width: 1440px;
+}
+
+.footer__logo-image {
+  display: block;
+  max-width: 180px;
+  margin-top: 55px;
+  margin-left: 130px;
+}
+
+.footer__menu-list {
+  display: grid;
+  grid-template-columns: 110px 200px 155px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 22px;
+  column-gap: 45px;
+  max-width: 600px;
+  max-height: 195px;
+  margin-top: 53px;
+  font-size: 16px;
+  list-style: none;
+}
+
+.footer__menu-list-item-contacts {
+  padding-left: 45px;  
+}
+
+.footer__menu-list-item-Privacy-Policy {
+  line-height: 1.25;
+}
+
+.footer__menu-list-item-products {
+  position: relative;
+  bottom: 20px;
+}
+
+.footer__menu-list-item-service {
+  position: relative;
+  top: 24px;
+  right: 155px;
+}
+
+.footer__menu-list-item-support {
+  position: relative;
+  left: 45px;
+}
+
+.footer__menu-list-item-geography-supplies {
+  position: relative;
+  left: 45px; 
+}
+
+.footer__menu-link {
+  text-decoration: none;
+}
+
+.copyright {
+  align-self: center;
+  padding-bottom: 24px;
+  font-size: 14px;
+}
