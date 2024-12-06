@@ -283,51 +283,49 @@ font-size: 14px;
   margin-left: 130px;
 }
 
-.footer__menu-list {
-  display: grid;
-  grid-template-columns: 110px 200px 155px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  row-gap: 22px;
-  column-gap: 45px;
-  max-width: 600px;
-  max-height: 195px;
-  margin-top: 53px;
-  font-size: 16px;
-  list-style: none;
-}
-
-.footer__menu-list-item-contacts {
-  padding-left: 45px;  
-}
-
-.footer__menu-list-item-Privacy-Policy {
-  line-height: 1.25;
-}
-
-.footer__menu-list-item-products {
-  position: relative;
-  bottom: 20px;
-}
-
-.footer__menu-list-item-service {
-  position: relative;
-  top: 24px;
-  right: 155px;
-}
-
-.footer__menu-list-item-support {
-  position: relative;
-  left: 45px;
-}
-
-.footer__menu-list-item-geography-supplies {
-  position: relative;
-  left: 45px; 
-}
-
 .footer__menu-link {
   text-decoration: none;
-}
+} 
+
+.footer__menu-list {
+  display: flex;
+  gap: 10px;
+  max-width: 580px;
+  margin-top: 53px;
+  list-style: none;
+  }
+  
+  .content_footer__menu-column_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  list-style: none;
+  }
+  
+  .content_footer__menu-column_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-left: 81px;
+  list-style: none;
+  }
+  
+  .content_footer__menu-column_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-left: 48px;
+  list-style: none;
+  }
+  
+  .footer__menu-link-contacts {
+  flex-grow: 1;
+  }
+  
+  .footer__menu-link-privacy-police {
+  display: block;
+  line-height: 1.25;
+  }
 
 .copyright {
   align-self: center;
